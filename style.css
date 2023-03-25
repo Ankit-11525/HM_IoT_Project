@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 892px)
+{
+    .Main_Heading>h1
+    {
+        padding: 10px;
+        font-size: x-large;
+    }
+}
+
+.Main_Heading
+{
+    margin-top: 10px;
+    display:flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+}
+
+.Main_Heading>img
+{
+    margin-left: 10px;
+    /* border: 2px solid red; */
+}
+.Main_Heading>h1
+{
+    margin-left: 28vw;
+    padding-top: 10px;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.Container
+{
+    margin-top: 50px;
+    width: vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 2px solid black;
+}
+
+.Container>.Temp_Box
+{
+    margin: 10px;
+    width: 400px;
+    height: 30vh;
+    border: 2px solid red;
+}
+
+.Container>.Pulse_Box
+{
+    margin: 10px;
+    width: 400px;
+    height: 30vh;
+    border: 2px solid green;
+}
+
+.Container>.Wifi_Box
+{
+    margin: 10px;
+    width: 400px;
+    height: 30vh;
+    border: 2px solid blue;
+}
+.Info
+{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Info>T_info
+{
+    margin: 20px;
+}
+.Info>S_info
+{
+    margin: 20px;
+}
+footer
+{
+    height: 25vh;
+    margin-top: 30px;
+    background-color: aquamarine;
+}
